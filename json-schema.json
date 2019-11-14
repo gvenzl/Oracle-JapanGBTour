@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-09/schema#",
+  "$id": "http://oracle.com/database",
+  "title": "Japan Bike Tour IOT data",
+  "description": "The IOT data taken from the bikes during the 2019 Oracle Groundbreakers Japan Bike Tour",
+  "type": "object",
+  "properties": {
+    "id": {
+      "description": "The IOT sensor ID",
+      "type": "string"
+    },
+    "lat": {
+      "description": "Geolocation latitude",
+      "type": "number"
+    },
+    "lng": {
+      "description": "Geolocation longitude",
+      "type": "number"
+    },
+    "kmh": {
+      "description": "Kilometers per hour",
+      "type": "number"
+    },
+    "mph": {
+      "description": "Miles per hour",
+      "type": "number"
+    },
+    "timestamp": {
+      "description": "Timestamp of data point",
+      "type": "string"
+    },
+    "gx": {
+      "description": "Gyroscope X axes",
+      "type": "integer"
+    },
+    "gy": {
+      "description": "Gyroscope Y axes",
+      "type": "integer"
+    },
+    "gz": {
+      "description": "Gyroscope Z axes",
+      "type": "integer"
+    },
+    "ax": {
+      "description": "Accelerometer X axes",
+      "type": "integer"
+    },
+    "ay": {
+      "description": "Accelerometer Y axes",
+      "type": "integer"
+    },
+    "az": {
+      "description": "Accelerometer Z axes",
+      "type": "integer"
+    },
+    "hum": {
+      "description": "Humidity",
+      "type": "integer"
+    },
+    "alt": {
+      "description": "Altitude",
+      "type": "integer"
+    },
+    "ba": {
+      "description": "Barometric pressure",
+      "type": "integer"
+    },
+    "ce": {
+      "description": "Temperature in Celcius",
+      "type": "integer"
+    },
+    "fa": {
+      "description": "Temperature in Farenheit",
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "lat",
+    "lng",
+    "kmh",
+    "mph",
+    "timestamp",
+    "gx",
+    "gy",
+    "gz",
+    "ax",
+    "ay",
+    "az",
+    "hum",
+    "alt",
+    "ba",
+    "ce",
+    "fa"
+  ]
+}
